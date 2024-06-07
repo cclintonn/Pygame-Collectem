@@ -1,7 +1,7 @@
 # Coin Collector Shooter
 
 ## Description
-Coin Collector Shooter is a top-down shooter game where you control a player character to collect coins while avoiding enemies. The objective is to collect as many coins as possible before colliding with an enemy. The player has 5 lives to start with, and coins continuously respawn. The player is constrained within the game window boundaries.
+Coin Collector Shooter is a top-down shooter game where you control a player character to collect coins while avoiding enemies. The objective is to collect as many coins as possible before colliding with an enemy. The player has 5 lives to start with, and coins continuously respawn.
 
 ## Controls
 - Arrow keys to move the player.
