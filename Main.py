@@ -84,7 +84,7 @@ class Enemy(pygame.sprite.Sprite):
                     if self.rect.y > enemy.rect.y:
                         self.rect.y += self.speed
 
-
+# Coin class
 class Coin(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()

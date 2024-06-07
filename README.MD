@@ -1,17 +1,19 @@
-# Coin Collector Shooter
 
-## Description
-Coin Collector Shooter is a top-down shooter game where you control a player character to collect coins while avoiding enemies. The objective is to collect as many coins as possible before colliding with an enemy. The player has 5 lives to start with, and coins continuously respawn.
+Collect them all!
 
-## Controls
+Programming Level 1/2
+
+The final pygame project for SLSS Programming.
+
+Controls
 - Arrow keys to move the player.
 
-## How to Run
+Instructions to Run
 1. Clone the repository.
 2. Install Pygame: `pip install pygame`
 3. Run the game: `python main.py`
 
-## Features
+Features
 - Player-controlled character with 5 lives.
 - Enemies that move towards the player.
 - Coins to collect for points.
@@ -20,3 +22,8 @@ Coin Collector Shooter is a top-down shooter game where you control a player cha
 - Start and end screens.
 - Player is constrained within the game window boundaries.
 - Game over condition when player runs out of lives.
+Known Bugs
+- Restarting doesnt really work as all the enemies will start spawn camping and hard lock you into dying over and over again.
+- Enemies spawn a little close at the start so if you dont start instantly moving you die.
+Attribution
+- OpenAI's ChatGPT was used for snippets on lines 96-125.
