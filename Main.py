@@ -25,7 +25,7 @@ class Player(pygame.sprite.Sprite):
         self.image.fill((0, 255, 0))
         self.rect = self.image.get_rect()
         self.rect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
-        self.speed = 7
+        self.speed = 7 # Change speed
         self.lives = 5 # Player starts with 5 lives
 
     def update(self):
