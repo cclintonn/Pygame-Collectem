@@ -1,3 +1,7 @@
+# Author: Clinton Chieng
+# Collect'em!
+# Date: 2024/06/02
+
 import pygame
 import random
 
@@ -12,7 +16,7 @@ SCREEN_HEIGHT = 768
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Set the title of the window
-pygame.display.set_caption("Collect them all!")
+pygame.display.set_caption("Collect'em!")
 
 # Clock to control the frame rate
 clock = pygame.time.Clock()

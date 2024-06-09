@@ -1,5 +1,8 @@
+Author: Clinton Chieng
 
-Collect them all!
+Collect'em!
+
+Date: 2024/06/02
 
 Programming Level 1/2
 
