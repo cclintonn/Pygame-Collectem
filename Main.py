@@ -1,6 +1,6 @@
 # Author: Clinton Chieng
 # Collect'em!
-# Date: 2024/06/02
+# Date: 2024/06/13
 
 import pygame
 import random
