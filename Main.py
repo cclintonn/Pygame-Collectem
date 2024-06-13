@@ -87,6 +87,19 @@ class Enemy(pygame.sprite.Sprite):
         if self.rect.y > player.rect.y:
             self.rect.y -= self.speed
 
+# Prevent collision with other enemies
+        for enemy in enemies:
+            if enemy != self:
+                if self.rect.colliderect(enemy.rect):
+                    if self.rect.x < enemy.rect.x:
+                        self.rect.x -= self.speed
+                    if self.rect.x > enemy.rect.x:
+                        self.rect.x += self.speed
+                    if self.rect.y < enemy.rect.y:
+                        self.rect.y -= self.speed
+                    if self.rect.y > enemy.rect.y:
+                        self.rect.y += self.speed
+
 # Coin class
 class Coin(pygame.sprite.Sprite):
     def __init__(self):
